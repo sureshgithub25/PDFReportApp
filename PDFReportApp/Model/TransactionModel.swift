@@ -39,8 +39,3 @@ struct Transaction: Codable, Identifiable {
         case transactionType
     }
 }
-
-struct TransactionResponse: Codable {
-    let transactions: [Transaction]
-    let totalCount: Int
-}
